@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.lab{
+  transition: top 0.5s; 
+  top: 0.2rem; 
+}
+
+.inp:focus + .lab{
+  top: 0.5rem; 
+}
